@@ -29,7 +29,7 @@ This repository is used by the BIMBY committee to collaborate, plan, track and s
 
 To view the Project To-Do list, go to **Projects > Data Planning** to add, edit, or view your teams tasks.
 
-#**Github Basics**
+# **Github Basics**
 
 To get started, create a GitHub Account.
 The BIMBY-project repository acts as a shared project documentation location that all admin users can update. Currently, the project is private, but the goal is to make it public once it's developed enough to allow researchers to leverage work already completed.
