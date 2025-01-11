@@ -25,6 +25,21 @@ Usernames: joderobertsdf, tara_moreau, deedesie, michelletseng, winnieho
 
 **About this Repository**
 
-This repository is used by the BIMBY committee to collaborate, plan, track and store updates, code, and queries used to maintain and update the reporting database. 
+This repository is used by the BIMBY committee to collaborate, plan, track and store updates, code, and queries used to maintain and update the reporting database. The repository and project is currently set to private. This is to change in the future once a bit more organized.
 
 To view the Project To-Do list, go to **Projects > Data Planning** to add, edit, or view your teams tasks.
+
+# **Github Basics**
+
+To get started, create a GitHub Account.
+The BIMBY-project repository acts as a shared project documentation location that all admin users can update. Currently, the project is private, but the goal is to make it public once it's developed enough to allow researchers to leverage work already completed.
+
+Download GitHub Desktop and close the repository to a local computer drive. Working within the local drive you can save, edit, or create new files, and once ready, "push" or publish them to the Git project for other users to access. If you prefer, you can also work with command prompt/terminal to create folders, stage, commit and push changes from your local drive back to the Github repository.
+
+Forked repositories should only be used for database coding that is in test or development stages if there will be interruptions to the reporting or use of the database.
+
+**Using GitHub Desktop**
+
+With a cloned repository set up on your local drive, Github Desktop automatically tracks changes you make to the local repository, include changed files, new folders etc. Once you are ready to share your changes, open GitHub Desktop, and you'll see a list of changes its captured. Check the changes you want to see on Git, then add a title to the summar, and click Commit to main (or to the forked branch if/when we get there). Then click "Push" to have these changes appear on the online repository.
+
+To keep up with changes others have made to the online repository to your local drive, in GitHub Desktop click "Fetch Origin".
