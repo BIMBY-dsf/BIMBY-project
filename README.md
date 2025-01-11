@@ -1,5 +1,5 @@
-# BIMBY-project
-INaturalist URL: https://www.inaturalist.org/projects/butterflies-in-my-backyard-bimby-project
+**BIMBY Project on iNaturalist**
+https://www.inaturalist.org/projects/butterflies-in-my-backyard-bimby-project
 
 # **About the Butterflies in my Backyard (BIMBY) Project**
 
@@ -40,6 +40,6 @@ Forked repositories should only be used for database coding that is in test or d
 
 **Using GitHub Desktop**
 
-With a cloned repository set up on your local drive, Github Desktop automatically tracks changes you make to the local repository, include changed files, new folders etc. Once you are ready to share your changes, open GitHub Desktop, and you'll see a list of changes its captured. Check the changes you want to see on Git, then add a title to the summar, and click Commit to main (or to the forked branch if/when we get there). Then click "Push" to have these changes appear on the online repository.
+With a cloned repository set up on your local drive, Github Desktop automatically tracks changes you make to the local repository, include changed files, new folders etc. Once you are ready to share your changes, open GitHub Desktop, and you'll see a list of changes its captured. Check the changes you want to see on Git, then add a title to the summary, and click Commit to main (or to the forked branch if/when we get there). Then click "Push" to have these changes appear on the online repository.
 
-To keep up with changes others have made to the online repository to your local drive, in GitHub Desktop click "Fetch Origin".
+To keep up with changes others have made to the online repository to your local drive, in GitHub Desktop click "Pull Origin".
