@@ -32,7 +32,7 @@ To view the Project To-Do list, go to **Projects > Data Planning** to add, edit,
 # **Github Basics**
 
 To get started, create a GitHub Account.
-The BIMBY-project repository acts as a shared project documentation location that all admin users can update. Currently, the project is private, but the goal is to make it public once it's developed enough to allow researchers to leverage work already completed.
+The BIMBY-project repository acts as a shared project documentation location that all admin users can update and provide access to documentation for interested members of the public.
 
 Download GitHub Desktop and close the repository to a local computer drive. Working within the local drive you can save, edit, or create new files, and once ready, "push" or publish them to the Git project for other users to access. If you prefer, you can also work with command prompt/terminal to create folders, stage, commit and push changes from your local drive back to the Github repository.
 
