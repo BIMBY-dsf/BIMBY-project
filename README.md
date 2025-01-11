@@ -25,7 +25,7 @@ Usernames: joderobertsdf, tara_moreau, deedesie, michelletseng, winnieho
 
 **About this Repository**
 
-This repository is used by the BIMBY committee to collaborate, plan, track and store updates, code, and queries used to maintain and update the reporting database. 
+This repository is used by the BIMBY committee to collaborate, plan, track and store updates, code, and queries used to maintain and update the reporting database. The repository and project is currently set to private. This is to change in the future once a bit more organized.
 
 To view the Project To-Do list, go to **Projects > Data Planning** to add, edit, or view your teams tasks.
 
