@@ -59,4 +59,14 @@ select place_state_name as province,
 group by place_state_name
 order by place_state_name asc;
 
+select common_name, user_login, COSEWICStatus, LegalCommonName, count(id),year(observed_on) as YearObserved, `SARA schedule`
+from inaturalist_import
+inner join COSEWIC
+    on inaturalist_import.common_name = COSEWIC.LegalCommonName
+where COSEWICStatus = 'Endangered' and quality_grade ='Research'
+group by YearObserved,common_name, user_login, COSEWICStatus,LegalCommonName, `SARA schedule`
+order by YearObserved,common_name asc, count(id) desc
 
+select cosewic.LegalCommonName, COSEWICStatus
+from cosewic
+order by COSEWICStatus
