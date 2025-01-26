@@ -1,4 +1,4 @@
-select
+  select
       left(observed_on,4) as Years
     ,count(distinct(user_id)) as TotalObservers
 from inaturalist_import
@@ -41,11 +41,10 @@ group by DATE_FORMAT(observed_on,'%M'),month(observed_on), day(observed_on),
 order by day(observed_on) asc ,count(id) desc;
 
 select common_name,
-       count(id),
-       '2025-10-25' as extract_date
+       count(id)
 from inaturalist_import
 where quality_grade='research'
-group by common_name,  '2025-10-25'
+group by common_name
 order by count(id) desc;
 
 select place_state_name as province,
@@ -60,4 +59,14 @@ select place_state_name as province,
 group by place_state_name
 order by place_state_name asc;
 
+select common_name, user_login, COSEWICStatus, LegalCommonName, count(id),year(observed_on) as YearObserved, `SARA schedule`
+from inaturalist_import
+inner join COSEWIC
+    on inaturalist_import.common_name = COSEWIC.LegalCommonName
+where COSEWICStatus = 'Endangered' and quality_grade ='Research'
+group by YearObserved,common_name, user_login, COSEWICStatus,LegalCommonName, `SARA schedule`
+order by YearObserved,common_name asc, count(id) desc
 
+select cosewic.LegalCommonName, COSEWICStatus
+from cosewic
+order by COSEWICStatus
