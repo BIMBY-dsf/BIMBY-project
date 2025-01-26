@@ -1,4 +1,4 @@
-select
+  select
       left(observed_on,4) as Years
     ,count(distinct(user_id)) as TotalObservers
 from inaturalist_import
@@ -41,11 +41,10 @@ group by DATE_FORMAT(observed_on,'%M'),month(observed_on), day(observed_on),
 order by day(observed_on) asc ,count(id) desc;
 
 select common_name,
-       count(id),
-       '2025-10-25' as extract_date
+       count(id)
 from inaturalist_import
 where quality_grade='research'
-group by common_name,  '2025-10-25'
+group by common_name
 order by count(id) desc;
 
 select place_state_name as province,
