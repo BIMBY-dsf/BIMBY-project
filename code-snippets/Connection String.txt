@@ -2,7 +2,7 @@
 // Database configuration
 $host = "bimby.duckdns.org:3306"; // usually 'localhost' if your database is on the same server
 $user = "bimby";
-$pass = "dsfb1mby!";
+$pass = "xxxxxxxxx";
 $db = "bimby";
 
 // Create connection
